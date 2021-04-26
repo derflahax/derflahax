@@ -33,7 +33,7 @@ class MySketch(Sketch):
     def setup(self):
         self.oldprice = 0
         self.constraints = ((1, 21), (0, 5))
-        self.frame_rate = 30
+        self.frame_rate = 0.5
         self.keyboard.color_mode('rgb')
         self.r = 0
         self.g = 0
